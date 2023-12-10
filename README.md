@@ -8,7 +8,7 @@ The product landing page features the latest mobile phones with key features hig
 
 ## Live Demo
 
-👉 [Dabotics_firstTask_Landing Page.mp4](#) - Take a look at the live demo!
+👉 [Dabotics_firstTask_Landing Page](#) - Take a look at the live demo!
 
 
 ## Features
