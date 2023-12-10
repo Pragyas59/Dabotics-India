@@ -1,0 +1,367 @@
+/* Reset some default styles */
+/* Add this to your existing CSS */
+
+/* Navigation bar styling */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+/* Add this to your existing CSS */
+
+/* Updated CSS for Home Section without Background Image */
+.home-section {
+    background-color: #545151; /* Choose your desired background color */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh; /* Ensure the section covers the entire viewport height */
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.home-points {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-points li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}
+
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}
+/* Add this to your existing CSS */
+
+/* Home section styling */
+.home-section {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+/* Additional CSS for Image Styling */
+.home-content img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+    width: 200px; /* Set a specific width for the image */
+    height: 150px; /* Set a specific height for the image */
+    margin-bottom: 20px; /* Add some spacing below the image */
+}
+
+
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}
+
+
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.product-info h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-info li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styling for the additional info section */
+.additional-info {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd; /* Add a border for the box */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.additional-info h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.additional-info li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+/* Add this to your existing CSS */
+
+/* Footer styling */
+footer {
+    background-color: #14213d;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #4CAF50;
+}
+
+/* Social media links in the footer */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover img {
+    transform: scale(1.2);
+}
+/* Additional CSS for Features Section */
+.features-section {
+    padding: 50px 0;
+    background-color: #f5f5f5; /* Set a background color for the Features section */
+}
+
+.feature {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    width: 200px; /* Set a specific width for the feature icons */
+    height: 200px; /* Set a specific height for the feature icons */
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+/* Additional CSS for Contact Section */
+
+.contact-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-info, .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px; /* Add padding for the box */
+    border: 1px solid #ddd; /* Add a border for the box */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #fff; /* Set a background color for the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-info a {
+    color: #4CAF50;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
